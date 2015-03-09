@@ -15,17 +15,17 @@ It should allow for the following operations:
 
 ## Drivers
 
-paz-machine should be able to setup it's units (clusters and/or machines) in different environments, be it cloud providers or on local environments.
+paz-machine should be able to setup its units (clusters and/or machines) in different environments, be it cloud providers or on local environments.
 
 To support that, paz-machine should implement a variety of drivers that would allow it to interface with said environments.
 
-###The requirements for each driver, are:
+###The requirements for each driver are:
 
 * Built around a provider that offers CoreOS support
 * Consume an HTTP API offered by the provider service
 * Setup the machines so that a user can access them through SSH
 
-A driver should also provide a set of commands that go in line with the operations that paz-machine should expose to it's users
+A driver should also provide a set of commands that go in line with the operations that paz-machine should expose to its users
 
 ## Operations
 
